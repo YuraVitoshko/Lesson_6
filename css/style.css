@@ -1,0 +1,350 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css?family=Inter:400,500,600,700,800,900&display=swap");
+@font-face{
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+}
+@font-face{
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+}
+@font-face{
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+@font-face{
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+}
+/* ===============================ARTICLE=============================== */
+/* Максимальная ширина, семейство шрифтов, стиль, толщина, размер текста. */
+body{
+	max-width: 1920px;
+	font-family: "Inter", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+}
+/* Минимальная высота, отображение области внутри элемента, максимальная ширина, центрирование. */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+/* Граница с трех сторон, прозрачность. */
+.header{
+	border: 10px solid#af0000;
+	border-top: none;
+	opacity: 0.8;
+}
+/* Размер шрифта, выравнивание по центру, подчеркивание, цвет, тень, толщина, внешний отступ вниз. */
+.link-maket{
+	font-size: 30px;
+	text-align: center;
+	text-decoration: underline;
+	color: rgb(104, 152, 255);
+	text-shadow: 1.5px 1.5px 1.5px #0061a1;
+	font-weight: 900;
+	margin: 0 0 20px 0;
+}
+/* Выравнивание текста по центру, толщина, размер, цвет, внутренний отступ слева. */
+.menu-list{
+	text-align: left;
+	font-weight: 600;
+	font-size: 26px;
+	color: rgb(0, 77, 51);
+	padding: 0 0 0 10px;
+}
+/* Внешний отступ вниз */
+.list-item{
+	margin: 0 0 10px 0;
+}
+/* Выравнивание ткекста по центру, цвет, размер, толщина, отступ. */
+.article-h1{
+	text-align: center;
+	color: rgb(248, 139, 6);
+	font-size: 32px;
+	font-weight: 800;
+	margin: 0 0 10px 0;
+	text-shadow: 2px 2px 2px #815800;
+}
+.image-phone{
+	width: 1024px;
+	margin: 0 0 20px 0;
+}
+/* Цвет, межстрочный ин-вал, отступы. */
+.text{
+	color: rgb(106, 90, 205);
+	line-height: 1.2;
+	padding: 0 20px;
+	margin: 0 0 10px 0;
+}
+/* Все спаны с классом plus */
+.plus{
+	color: rgb(0, 172, 0);
+}
+/* Все спаны с классом minus */
+.minus{
+	color: rgb(255, 0, 0);
+}
+/* Все списки с классом list */
+.list{
+	padding: 0 0 0 30px;
+}
+/* ================================Блок 1=================================== */
+/* Границы, межстрочный интервал, отступ */
+.block1{
+	/* Прямая */
+	border-top: 5px solid #350000;
+	/* Точки */
+	border-right: 5px dotted #350000;
+	/* Пунктир */
+	border-bottom: 5px dashed #350000;
+	/* Двойная */
+	border-left: 5px double #350000;
+	line-height: 1.2;
+	margin: 0 0 20px 0;
+}
+/* Размер, толщина, красная строка, цвет, тень, отступ */
+.h2-iphone12{
+	font-size: 26px;
+	font-weight: 700;
+	text-indent: 150px;
+	color: rgb(255, 0, 0);
+	text-shadow: 1px 1px 1px #af0000;
+	margin: 0 0 10px 0;
+}
+/* Отступ */
+.image-apple{
+	margin: 0 0 10px 0;
+	border-radius: 15%;
+}
+.block1-paragraph1 {
+	color: rgb(73, 73, 73);
+	padding: 0 0 0 15px;
+}
+.block1-paragraph2 {
+	color: #815800;
+	text-decoration: line-through;
+	text-align: right;
+}
+.block1-list-item{
+	color: rgb(255, 53, 238);
+}
+/* ================================Блок 2=================================== */
+.block2 {
+	border: 10px dashed #297364;
+	line-height: 1.6;
+}
+.h2-note20 {
+	font-weight: 700;
+	color: #bbeb37;
+	font-size: 26px;
+	text-indent: 100px;
+}
+/* Обводка */
+.image-note20 {
+	outline: 8px dotted #0041a3;
+	border-radius: 5%;
+	margin: 0 0 0 200px;
+}
+.block2-paragraph1 {
+	padding: 20px;
+	color: #5F5F5F;
+}
+.block2-list-item {
+	color: #29a9ff;
+	text-transform: capitalize;
+}
+/* ================================Блок 3=================================== */
+.block3 {
+	border: 20px double #efff0b;
+	line-height: 2;
+	margin: 0 0 40px 0;
+}
+.h2-honor10i{
+	max-width: 500px;
+	text-align: center;
+	font-weight: 700;
+	color: #1dca60;
+	font-size: 26px;
+	border-bottom: 5px dotted #004126;
+	border-right: 5px solid #004126;
+	margin: 0 0 0 100px;
+}
+.image-honor10i {
+	width: 500px;
+	margin: 20px 0 30px 300px;
+	outline: 20px double #ff28f4;
+	border-radius: 50%;
+	box-shadow: 100px 20px 20px 20px #770071;
+}
+.block3-paragraph1{
+	padding: 0 0 0 5%;
+	color: #be8544;
+}
+.block3-list-item {
+	color: #522b99;
+	text-transform: lowercase;
+	text-align: center;
+}
+/* ================================Блок 4=================================== */
+.block4 {
+	border: 7px dashed rgb(102, 102, 102);
+	line-height: 1.3;
+	margin: 0 0 20px 0;
+	background-color: #000 ;
+	opacity: 0.4;
+}
+.h2-xiaomi {
+	font-weight: 700;
+	color: #3160fa;
+	font-size: 26px;
+	margin: 0 20px 10px 0;
+	text-align: right;
+}
+.image-xiaomi {
+	width: 500px;
+	border-radius: 50%;
+	box-shadow: inset 0 0 10px 0 #000, 0 0 10px 0 red;
+	margin: 0 0 30px 200px;
+}
+.block4-paragraph1 {
+	color: rgb(107, 107, 180);
+	margin: 0 30px;
+	outline: 5px dashed rgb(255, 58, 58);
+}
+.block4-paragraph2{
+	opacity: 0;
+}
+.block4-list-item {
+	color: hotpink;
+}
+/* ================================Блок 5=================================== */
+.block5 {
+	border: 5px dotted #000;
+	margin: 0 0 50px 0;
+	line-height: 1.5;
+}
+.h2-huawei {
+	font-weight: 700;
+	color: #5cfc84;
+	font-size: 26px;
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+.image-huawei {
+	border: 5px solid #000;
+	margin: 0 0 20px 50px;
+}
+/* Скрыт объект */
+.block5-paragraph1 {
+	visibility: hidden;
+}
+.block5-list-item {
+	color: #7f4986;
+}
+/* ================================Подвал=================================== */
+.footer{
+	margin: 0 0 20px 0;
+	text-align: center;
+	opacity: 0;
+}
+.footer-link{
+	color: #004126;
+	font-weight: 800;
+	font-size: 28px;
+}
+
+
+/* ===============================MAKET========================================= */
+
+
+/* Минимальная высота, отображение области внутри элемента, максимальная ширина, центрирование */
+.maket-wrapper{
+	min-height: 100%;
+	overflow: hidden;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+/* Ограниченая максимальная ширина, центрирование, семейство шрифтов, стиль, толщина, размер. */
+.maket {
+	max-width: 1025px;
+	margin: 0 auto;
+	font-family: "CircularStd", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+}
+/* Размер шрифта, межстрочный интервал, цвет, тень, центрирование, внешний отступ вниз. */
+.maket-h2 {
+	font-size: 65px;
+	line-height: 1.2;
+	color: #313131;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	text-align: center;
+	margin: 0 0 20px 0;
+	font-weight: 500;
+}
+/* Ограниченая максимальная ширина, размер шрифта, межстрочный интервал, цвет, центрирование, внешний отступ вниз. */
+.maket-text {
+	max-width: 750px;
+	font-size: 20px;
+	line-height: 1.25;
+	color: #5F5F5F;
+	text-align: center;
+	margin: 0 auto 224px;
+}
+/* Выравнивание текста по левому краю. */
+.maket-block {
+	text-align-last: left;
+}
+/* Толщина, размер, межстрочный интервал, цвет, прозрачность, внешний отступ вниз. */
+.maket-h4 {
+	font-weight: 700;
+	font-size: 34px;
+	line-height: 130%;
+	color: #313131;
+	opacity: 0.88;
+	margin: 0 0 20px 0;
+}
+/* Ограниченая максимальная ширина, размер, межстрочный интервал, цвет, внешний отступ вниз. */
+.maket-paragraph {
+	max-width: 508px;
+	font-size: 18px;
+	line-height: 1.55;
+	color: #5F5F5F;
+	margin: 0 0 125px 0;
+}
+/* Толщина, размер, межстрочный интервал, цвет, прозрачность, внешний отступ вниз. */
+.dragos{
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 130%;
+	color: #313131;
+	opacity: 0.88;
+	margin: 0 0 5px 0;
+}
+/* Размер, межстрочный интервал, цвет, внешний отступ вниз. */
+.manager{
+	font-size: 18px;
+	line-height: 1.27;
+	color: #B8B8B8;
+	margin: 0 0 278px 0;
+}
+.image-man{
+	max-width: 468px;
+}
